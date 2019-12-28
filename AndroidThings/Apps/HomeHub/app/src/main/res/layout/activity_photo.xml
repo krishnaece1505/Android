@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/photoDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kp06" />
+
+    <Button
+        android:id="@+id/photos_previous_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#79FFFFFF"
+        android:text="Previous"
+        android:textColor="#050505" />
+
+    <Button
+        android:id="@+id/photos_next_button"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="588dp"
+        android:layout_marginTop="196dp"
+        android:backgroundTint="#79FFFFFF"
+        android:text="Next"
+        android:textColor="#050505" />
+
+    <Button
+        android:id="@+id/photos_back_button"
+        android:layout_width="119dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#181818"
+        android:text="Back" />
+
+</FrameLayout>

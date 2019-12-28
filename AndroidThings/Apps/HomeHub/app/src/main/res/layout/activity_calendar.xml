@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CalendarView
+        android:id="@+id/calender"
+        android:layout_width="483dp"
+        android:layout_height="313dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="80dp"></CalendarView>
+
+    <Button
+        android:id="@+id/calendar_back_button"
+        android:layout_width="119dp"
+        android:layout_height="38dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="340dp"
+        android:backgroundTint="#181818"
+        android:text="Back" />
+
+</FrameLayout>

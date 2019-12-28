@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/screensaverDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image2" />
+
+    <ImageView
+    android:id="@+id/AndroidThingsLogo"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="550dp"
+        android:src="@drawable/androidthingslogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="HomeHub"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#96EBE4E4"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/weather_button"
+        android:layout_width="221dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="85dp"
+        android:backgroundTint="#43F8F8F8"
+        android:fontFamily="sans-serif"
+        android:text="Weather"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/photos_button"
+        android:layout_width="221dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="155dp"
+        android:backgroundTint="#43F8F8F8"
+        android:fontFamily="sans-serif"
+        android:text="Photos"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/calendar_button"
+        android:layout_width="221dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="225dp"
+        android:backgroundTint="#43F8F8F8"
+        android:fontFamily="sans-serif"
+        android:text="Calendar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#131313"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</FrameLayout>
